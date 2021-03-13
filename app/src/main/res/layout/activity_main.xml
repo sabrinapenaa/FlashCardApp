@@ -10,7 +10,7 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text = "This is the question"
+        android:text = "Who is the 44th president of the United States"
         android:textSize="40sp"
         android:gravity="center"
         />
@@ -18,10 +18,21 @@
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text="This is the answer"
+        android:text="Barack Obama"
         android:textSize="40sp"
         android:gravity="center"
         android:visibility="invisible"
+        android:layout_below="@+id/flashcard_question"
         />
+    <ImageView
+        android:id = "@+id/addButton"
+        android:src = "@drawable/addbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        />
+
 
 </RelativeLayout>
