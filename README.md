@@ -6,7 +6,7 @@ Implemented a database in order to save created cards, and allow the user to see
 ### App Walk-though
 
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://i.imgur.com/rLn4orB.gif" width=200><br>
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
