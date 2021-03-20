@@ -22,7 +22,7 @@
         android:textSize="40sp"
         android:gravity="center"
         android:visibility="invisible"
-        android:layout_below="@+id/flashcard_question"
+
         />
     <ImageView
         android:id = "@+id/addButton"
@@ -32,6 +32,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="15dp"
+        />
+    <ImageView
+        android:id = "@+id/nextButton"
+        android:src = "@drawable/nextbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/flashcard_question"
         />
 
 
